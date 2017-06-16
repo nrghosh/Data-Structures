@@ -22,7 +22,7 @@ Node* Insert(Node *head,int data){
       Node *p;
       p = head;
   
-      while(p->next != NULL){
+      while(p->next != NULL){ // Traverse to end of linked list (O(n) cost)
         p = p->next ;
       }
       p->next = temp;
