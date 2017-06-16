@@ -11,7 +11,7 @@ return back the pointer to the head of the linked listf.
 */
 
 
-Node* Insert(Node *head,int data){
+Node* Insert(Node *head,int data){ // Constant O(1) cost operation
     return new Node{data, head} ;
 }
 
