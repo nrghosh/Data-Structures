@@ -27,7 +27,7 @@ Node* InsertNth(Node *head, int data, int position)
        return newNode;
     }
 
-    Node *currentNode = head; // traversing to insertion position
+    Node *currentNode = head; // traversing to insertion position (linear cost operation)
     while (position - 1 > 0) {
         currentNode = currentNode->next;
         position--;
