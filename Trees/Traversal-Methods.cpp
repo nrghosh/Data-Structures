@@ -9,7 +9,7 @@ but that is an arbitrary operation- they key concept distinguishing the methods 
 we traverse the tree.
 ******************************************************************************************************************************/
 /*******************
-Node is defined as  
+Node structure: 
 
 struct node
 {
