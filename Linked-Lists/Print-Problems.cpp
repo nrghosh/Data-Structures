@@ -41,7 +41,7 @@ printf("List traversal done. total num elements = %d\n", curnodenum);
 void ReversePrint(Node *head)
 {
   if(head != NULL){
-      ReversePrint(head->next) ; // recursive definition
+      ReversePrint(head->next) ; // Clever bit of recursion- have the recursive call, then the print statement.
       printf("%d\n", head->data) ;
   }
   return ;
