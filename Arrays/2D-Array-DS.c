@@ -31,7 +31,7 @@ int main(){
     for(int a = 0; a < 4; a++){
         for(int b = 0; b < 4; b++){
             curr = arr[a][b] + arr[a][b+1] + arr[a][b+2] + arr[a+1][b+1] + arr[a+2][b] + arr[a+2][b+1] + arr[a+2][b+2];
-          // This internal line ^ could be thrown into a loop of itself if we decided to redefine the "shape"
+          // This internal line ^ could be written into a loop of itself if we decided to redefine the "shape"
             if(curr >= max){
                 max = curr;
             }
