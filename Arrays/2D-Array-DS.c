@@ -40,3 +40,5 @@ int main(){
     printf("%d", max);
     return 0;
 }
+
+// helper function for calculating curr (line 33)
