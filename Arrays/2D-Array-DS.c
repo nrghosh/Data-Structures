@@ -9,7 +9,7 @@
 /*
 Calculate the hourglass sum for every hourglass in array A, then print the maximum hourglass sum.
 
-Hourglass format:
+Hourglass is just a name for a special format:
 * * *
   *
 * * *
