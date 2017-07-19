@@ -19,7 +19,7 @@ Hourglass is just a name for a special format:
 
 */
 
-int main(){
+int main(void){
     int arr[6][6];
     for(int arr_i = 0; arr_i < 6; arr_i++){
        for(int arr_j = 0; arr_j < 6; arr_j++){
@@ -40,6 +40,7 @@ int main(){
         }
     }
     printf("%d", max);
+    
     return 0;
 }
 
