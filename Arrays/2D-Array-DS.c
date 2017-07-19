@@ -28,7 +28,7 @@ int main(void){
        }
     }
     
-    int max = -50;
+    int max = -50; // any REALLY negative number (theoretically neg. infinity)
     int curr;
     for(int a = 0; a < 4; a++){
         for(int b = 0; b < 4; b++){
