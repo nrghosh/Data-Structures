@@ -1,4 +1,8 @@
 /*
+
+Height of a BST
+
+
 The tree node has data, left child and right child 
 class Node {
     int data;
