@@ -15,6 +15,6 @@ Node* Insert(Node *head,int data){ // Constant O(1) cost operation
     return new Node{data, head} ;
 }
 
-// Create new node n
+// Create a new node n
 // Point node n (n->next) to first element of linked list, establish positioning
 // Make "head" refer to n (now first element)
