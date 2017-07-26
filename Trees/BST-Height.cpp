@@ -3,7 +3,7 @@
 Height of a BST
 
 
-The tree node has data, left child and right child 
+The tree node has data, left child tree and right child tree
 class Node {
     int data;
     Node* left;
