@@ -99,7 +99,7 @@ struct
     | N(x, _, h1, h2) => x
 
   (*  toString itemToString (t, cmp) = a string representation of keys(t),
-  *   where the string representation of the key x is itemToString x.
+  *   where the string representation of the key x is itemToString(x).
   *)
   fun toString (itemToString : 'a -> string) ((t, _) : 'a pri_q) : string =
   let
