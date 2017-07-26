@@ -11,11 +11,11 @@ Problem from advanced challenge in Hackerrank
 
 Calculate the hourglass sum for every hourglass in array A, then print the maximum hourglass sum.
 
-Hourglass is just a name for a special format:
+Hourglass is just a name for a special format/shape of values:
+
 * * *
   *
 * * *
-
 
 */
 
