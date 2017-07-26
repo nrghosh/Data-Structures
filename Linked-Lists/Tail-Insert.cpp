@@ -11,20 +11,24 @@
 */
 
 Node* Insert(Node *head,int data){
+  
+  // first create the new node
     Node *temp=new Node();
     temp->data = data;
     temp->next = NULL;
 
+  // check status of preexisting linked list
     if(head == NULL){
         head = temp;
     } 
-    else {
+    else { // if there's already a linked list body
       Node *p;
       p = head;
   
       while(p->next != NULL){ // Traverse to end of linked list (O(n) cost)
         p = p->next ;
       }
+      // insert at the endpoint
       p->next = temp;
     }
   return(head);
